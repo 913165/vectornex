@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rimraf collections config && mkdirp collections config && next dev",
+    "dev": "rimraf collecnpm tions config && mkdirp collections config && next dev -p 5136",
     "build": "next build",
     "start": "next start"
   },
